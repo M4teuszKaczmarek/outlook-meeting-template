@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Zamień wszystkie wystąpienia https://YOUR-HOST na adres, pod którym
+  Zamień wszystkie wystąpienia https://m4teuszkaczmarek.github.io/outlook-meeting-template na adres, pod którym
   hostujesz pliki add-ina (np. https://twoja-firma.github.io/meeting-template).
 -->
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
@@ -14,11 +14,11 @@
   <DefaultLocale>pl-PL</DefaultLocale>
   <DisplayName DefaultValue="Szablon spotkania"/>
   <Description DefaultValue="Automatycznie dodaje agendę i link do logowania czasu do nowych spotkań."/>
-  <IconUrl DefaultValue="https://YOUR-HOST/assets/icon-64.png"/>
-  <HighResolutionIconUrl DefaultValue="https://YOUR-HOST/assets/icon-128.png"/>
-  <SupportUrl DefaultValue="https://YOUR-HOST/"/>
+  <IconUrl DefaultValue="https://m4teuszkaczmarek.github.io/outlook-meeting-template/assets/icon-64.png"/>
+  <HighResolutionIconUrl DefaultValue="https://m4teuszkaczmarek.github.io/outlook-meeting-template/assets/icon-128.png"/>
+  <SupportUrl DefaultValue="https://m4teuszkaczmarek.github.io/outlook-meeting-template/"/>
   <AppDomains>
-    <AppDomain>https://YOUR-HOST</AppDomain>
+    <AppDomain>https://m4teuszkaczmarek.github.io/outlook-meeting-template</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Mailbox"/>
@@ -31,7 +31,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://YOUR-HOST/commands.html"/>
+        <SourceLocation DefaultValue="https://m4teuszkaczmarek.github.io/outlook-meeting-template/commands.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -79,12 +79,12 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16" DefaultValue="https://YOUR-HOST/assets/icon-16.png"/>
-        <bt:Image id="Icon.32" DefaultValue="https://YOUR-HOST/assets/icon-32.png"/>
-        <bt:Image id="Icon.80" DefaultValue="https://YOUR-HOST/assets/icon-80.png"/>
+        <bt:Image id="Icon.16" DefaultValue="https://m4teuszkaczmarek.github.io/outlook-meeting-template/assets/icon-16.png"/>
+        <bt:Image id="Icon.32" DefaultValue="https://m4teuszkaczmarek.github.io/outlook-meeting-template/assets/icon-32.png"/>
+        <bt:Image id="Icon.80" DefaultValue="https://m4teuszkaczmarek.github.io/outlook-meeting-template/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Commands.Url" DefaultValue="https://YOUR-HOST/commands.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://m4teuszkaczmarek.github.io/outlook-meeting-template/commands.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="Group.Label" DefaultValue="Szablon"/>
@@ -144,14 +144,14 @@
       </Hosts>
       <Resources>
         <bt:Images>
-          <bt:Image id="Icon.16" DefaultValue="https://YOUR-HOST/assets/icon-16.png"/>
-          <bt:Image id="Icon.32" DefaultValue="https://YOUR-HOST/assets/icon-32.png"/>
-          <bt:Image id="Icon.80" DefaultValue="https://YOUR-HOST/assets/icon-80.png"/>
+          <bt:Image id="Icon.16" DefaultValue="https://m4teuszkaczmarek.github.io/outlook-meeting-template/assets/icon-16.png"/>
+          <bt:Image id="Icon.32" DefaultValue="https://m4teuszkaczmarek.github.io/outlook-meeting-template/assets/icon-32.png"/>
+          <bt:Image id="Icon.80" DefaultValue="https://m4teuszkaczmarek.github.io/outlook-meeting-template/assets/icon-80.png"/>
         </bt:Images>
         <bt:Urls>
-          <bt:Url id="Commands.Url" DefaultValue="https://YOUR-HOST/commands.html"/>
-          <bt:Url id="WebViewRuntime.Url" DefaultValue="https://YOUR-HOST/commands.html"/>
-          <bt:Url id="JSRuntime.Url" DefaultValue="https://YOUR-HOST/launchevent.js"/>
+          <bt:Url id="Commands.Url" DefaultValue="https://m4teuszkaczmarek.github.io/outlook-meeting-template/commands.html"/>
+          <bt:Url id="WebViewRuntime.Url" DefaultValue="https://m4teuszkaczmarek.github.io/outlook-meeting-template/commands.html"/>
+          <bt:Url id="JSRuntime.Url" DefaultValue="https://m4teuszkaczmarek.github.io/outlook-meeting-template/launchevent.js"/>
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="Group.Label" DefaultValue="Szablon"/>
